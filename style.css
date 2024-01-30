@@ -62,7 +62,7 @@ h3 {
     border: 3px solid #6f42c1;
 }
 .description-section img {
-    transition: transform .2s;
+    transition: transform .5s;
     margin-top: 20px;
     max-width: 30%;
     height: auto;
