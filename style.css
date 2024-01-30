@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.description-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.description {
+    flex: 1;
+    text-align: justify;
+    margin-right: 5cm;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color:#333;
+    font-size: 24px;
+}
+.contact-us li{
+    list-style-type: circle;    
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column; /* Display links below the heading */
+    align-items: flex-start; /* Align links to the left */
+    margin-top: 20px; 
+}
+
+.linked img{
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    width: 100px;
+    border: 3px solid #6f42c1;
+}
+img {
+    margin-top: 20px;
+    max-width: 20%;
+    height: auto;
+    border: 2px solid #6f42c1; /* Border style, width, and color */
+    border-radius: 8px; /* Optional: Adds rounded corners to the border */
+
+}
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.features-table {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 3px;
+    text-align: left;
+    margin-right:10px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+}
+
+ul{
+    margin-right:80px;
+}
+
+.tutorials-section {
+    display: flex;
+    flex-direction: column; /* Display links below the heading */
+    align-items: flex-start; /* Align links to the left */
+    margin-top: 20px; /* Add margin to separate it from the previous section */
+}
+
+ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    margin-bottom: 10px; /* Add margin between links */
+}
